@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(196, 96, 157);
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+   
+    background-image: url("../assets/background.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 20rem;
+}
+
+.logo{
+   
+    height: 5rem;
+    display: flex;
+    margin: 2rem 3rem;
+}
+
+.logo img{
+    width: 5rem;
+}
+
+.logo h1{
+    font-size: 1.5rem;
+    color: #fff;
+    margin-top: 2rem;
+}
+
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 2rem;
+    color: white;
+    font-family: sans-serif;
+    margin: 2rem 3rem;
+}
+
+
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ccc;
+   
+    
+}
+
+fieldset {
+    border: 1px solid #000000;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+
+
+legend {
+    padding: 0 10px;
+    color: #333;
+    font-weight: bold;
+}
+
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+
+input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+.btnGuardar {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+}
+
+
+.btnGuardar:hover {
+    background-color: #0056b3;
+}
+
+.btnEliminarTodos {
+    width: auto;
+    margin-left: 4rem;
+    padding: 10px 20px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btnEliminarTodos:hover {
+    background-color: #c82333;
+}
+
+.table-container{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+   
+}
+
+table {
+    width: 90%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+thead {
+    background-color: #474747;
+}
+
+thead th {
+    padding: 10px;
+    text-align: left;
+}
+
+tbody tr{
+    background-color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+tbody tr:hover {
+    background-color: #3a4661;
+}
+
+tbody td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+
+footer{
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer span{
+    color: #fff;
+    margin-top: 2rem;
+    margin-right: 1rem;
+    
+    
+}
